@@ -68,7 +68,8 @@ h1 span {
 	margin-top: -55px;
 	margin-left: -50px;
 }
-.FOOT1 span,a{
+.FOOT1 span,
+a {
 	color: #eafdfc;
 	text-decoration: none;
 }
@@ -83,4 +84,21 @@ h1 span {
 	font-family: medin;
 	text-align: center;
 	color: #4c4d4d;
+}
+@media (max-width: 600px){
+	ul {
+		list-style: none;
+		overflow: hidden;
+		display: block;
+		margin-left: 1.5rem;
+	}
+	li a {
+		float: left;
+		padding: 0.5rem;
+		font-size: 0.75rem;
+	}
+	.dec h1 {
+		font-size: 1.5rem;
+		padding: 2rem;
+	}
 }
